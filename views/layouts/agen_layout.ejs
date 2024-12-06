@@ -10,11 +10,22 @@
     <script src="https://unpkg.com/scrollreveal@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="font-nunito bg-[url(https://snippets.alexandru.so/beams.png)]">
-    
-    <%- body %>
-    <script src="./js/app.js"></script>
-    <!-- <script src="./js/autotyping.js"></script> -->
+<body class="font-nunito bg-slate-950 ">
+    <div>
+        <div class=" md:flex md:flex-row w-full">
+           <!-- side bar -->
+           <%- include('../agent_includes/sidbar.ejs')  %>
+            <section class= "h-screen w-[80%] ">
+             <div class="w-[1610px] bg-slate-800 h-14 shadow-sm">
+                 
+             </div>   
+               <%- body %>
+            </section>
+            
+        </div>
+    </div>
+   <script src="./js/app.js"></script>
+
      <script src="./js/ScrollReveal.js"></script>
 </body>
 

@@ -25,6 +25,10 @@ app.get('/home',(req,res)=>{
     res.render('home.ejs',{layout:adminLayout})
 })
 
+app.get('/manage_customer',(req,res)=>{
+    res.render('utility/manage_customer.ejs',{layout:adminLayout})
+})
+
 
 
 app.listen(port, ()=>{console.log(`applicayion is running on port ${port}`)})
