@@ -10,7 +10,7 @@ app.use(expressLayouts);
 app.set('view engine','ejs')
 app.set('layout','./layouts/main');
 
-const adminLayout = '../views/layouts/admin';
+const adminLayout = '../views/layouts/agen_layout';
 // code here for hend points
 app.get('/',(req,res)=>{
      res.status(200).render('index.ejs')
