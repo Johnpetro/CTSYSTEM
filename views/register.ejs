@@ -1,0 +1,34 @@
+<div class="text-white p-10  ">
+    <div class=" container mx-auto flex flex-col items-center gap-10 w-full md:flex md:flex-row md:w-full  md:space-y-24 ">
+        <div class="flex-1 text-transform   ">
+            <p class="font-bold text-3xl pb-2 ">Register</p>
+            <!-- <img src="./img/goal.png" class="" alt=""> -->
+            <p class="font-sm  ">Please provide a valid email address and phone number to ensure we can communicate with you effectively. Your email will be used for account-related notifications and password recovery, while your phone number will help us send important alerts and verify your identity when needed. Ensuring these details are correct is essential for securing your account and staying informed..</p>
+        </div>
+        <div class="flex justify-center flex-1 md:flex-1 flex-col gap-1 w-[100%]  space-y-2 md:flex md:flex-col form-transform    ">
+            <h2 class="text-white  text-lg font-medium title-font mb-0">Sign Up</h2>
+            
+            <form action="/register" method="post" class="flex flex-col gap-2 shadow-2xl">
+                <input type="text" placeholder="Username" name="username" class="py-2 px-2 rounded-md bg-slate-700  w-full ">
+                
+                   <span class="text-red-500">none</span>             
+              
+                <input type="email" placeholder="Email" name="email" class="py-2 px-2 rounded-md w-full bg-slate-700">
+            
+                    <span  class="text-red-500">non</span>      
+             
+                <input type="text" placeholder="Phone" name="phone" class="py-2 px-2 rounded-md w-full bg-slate-700">
+          
+                    <span  class="text-red-500">none</span>      
+
+                <input type="password" placeholder="Password" name="password" class="py-2 px-2 rounded-md w-full bg-slate-700">
+                    <span  class="text-red-500">none</span>      
+                <input type="submit" class="py-2 px-2 rounded-lg w-full bg-red-500">
+            </form>
+            <div class="text-sm">
+                Already have an account? <a href="/login"> Sign in →</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
