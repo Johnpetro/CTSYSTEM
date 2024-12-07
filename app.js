@@ -28,8 +28,16 @@ app.get('/home',(req,res)=>{
 app.get('/manage_customer',(req,res)=>{
     res.render('utility/manage_customer.ejs',{layout:adminLayout})
 })
+app.get('/create_form_customer',(req,res)=>{
+    res.render('utility/create_customer.ejs',{layout:adminLayout})
+})
 
-
+app.get('/manage_driver',(req,res)=>{
+    res.render('utility/manage_driver.ejs',{layout:adminLayout})
+})
+app.get('/create_driver',(req,res)=>{
+    res.render('utility/create_driver.ejs',{layout:adminLayout})
+})
 
 app.listen(port, ()=>{console.log(`applicayion is running on port ${port}`)})
 
