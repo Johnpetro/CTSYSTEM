@@ -39,6 +39,6 @@ app.get('/create_driver',(req,res)=>{
     res.render('utility/create_driver.ejs',{layout:adminLayout})
 })
 
-app.listen(port, ()=>{console.log(`applicayion is running on port ${port}`)})
+app.listen(port, ()=>{console.log(`application is running on port ${port}`)})
 
 
