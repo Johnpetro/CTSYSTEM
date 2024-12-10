@@ -1,0 +1,72 @@
+<section class=" m-5  ">
+    <div class="container mx-auto px-4 ma-w-4xl">
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+          <h1 class="text-2xl font-semibold mb-4">My Account</h1>
+          
+          <!-- Profile Section -->
+          <div class="flex items-start gap-6 mb-6">
+            <div>
+              <img src="https://via.placeholder.com/80" alt="Avatar" class="w-20 h-20 rounded-full">
+            </div>
+            <div>
+              <button class="bg-gray-700 text-sm text-gray-200 px-4 py-2 rounded-md hover:bg-gray-600">Change avatar</button>
+              <button class="text-red-500 text-sm ml-4 hover:underline">Delete avatar</button>
+            </div>
+          </div>
+          
+          <!-- Business Profile Section -->
+          <div class="mb-6">
+            <h2 class="text-lg font-semibold mb-2">Business Profile</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div>
+                <label class="block text-sm mb-1">Business Name</label>
+                <input type="text" class="w-full bg-gray-700 border border-gray-600 rounded-md px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Tabler">
+              </div>
+              <div>
+                <label class="block text-sm mb-1">Business ID</label>
+                <input type="text" class="w-full bg-gray-700 border border-gray-600 rounded-md px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="560afc32">
+              </div>
+              <div>
+                <label class="block text-sm mb-1">Location</label>
+                <input type="text" class="w-full bg-gray-700 border border-gray-600 rounded-md px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Peimei, China">
+              </div>
+            </div>
+          </div>
+    
+          <!-- Email Section -->
+          <div class="mb-6">
+            <label class="block text-sm mb-1">Email</label>
+            <div class="flex items-center gap-4">
+              <input type="email" class="flex-1 bg-gray-700 border border-gray-600 rounded-md px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="paweluna@howstuffworks.co">
+              <button class="bg-blue-500 text-sm text-white px-4 py-2 rounded-md hover:bg-blue-600">Change</button>
+            </div>
+            <p class="text-xs text-gray-400 mt-1">This contact will be shown to others publicly, so choose it carefully.</p>
+          </div>
+    
+          <!-- Password Section -->
+          <div class="mb-6">
+            <label class="block text-sm mb-1">Password</label>
+            <button class="bg-gray-700 text-sm text-gray-200 px-4 py-2 rounded-md hover:bg-gray-600">Set new password</button>
+            <p class="text-xs text-gray-400 mt-1">You can set a permanent password if you don't want to use temporary login codes.</p>
+          </div>
+    
+          <!-- Public Profile Section -->
+          <div class="mb-6">
+            <label class="block text-sm mb-1">Public profile</label>
+            <div class="flex items-center gap-2">
+              <input type="checkbox" id="public-profile" class="toggle-checkbox hidden">
+              <label for="public-profile" class="toggle-label bg-gray-700 w-10 h-6 rounded-full relative cursor-pointer">
+                <span class="toggle-ball absolute w-4 h-4 bg-gray-400 rounded-full transition-transform transform translate-x-1"></span>
+              </label>
+              <p class="text-sm text-gray-400">You're currently invisible</p>
+            </div>
+            <p class="text-xs text-gray-400 mt-1">Making your profile public means that anyone on the network will be able to find you.</p>
+          </div>
+    
+          <!-- Buttons -->
+          <div class="flex justify-end gap-4">
+            <button class="bg-gray-700 text-sm text-gray-200 px-4 py-2 rounded-md hover:bg-gray-600">Cancel</button>
+            <button class="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-gray-700 flex items-center gap-2">
+                save
+              </button>
+</section>

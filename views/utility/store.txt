@@ -1,0 +1,105 @@
+ction class="m-1">
+    <div class="bg-gray-800 rounded-lg p-4 ma-w-4xl shadow-md">
+        <h1 class="text-2xl font-semibold mb-6"> Driver Profile</h1>
+        
+        <!-- Profile Details -->
+        <div class="mb-8">
+          <h2 class="text-lg font-medium mb-4">Profile Details</h2>
+          <div class="flex items-center mb-4">
+            <img
+              src="https://via.placeholder.com/80"
+              alt="Profile Avatar"
+              class="w-20 h-20 rounded-full mr-4"
+            />
+            <div>
+              <button class="text-sm text-blue-500 font-medium hover:underline">Change avatar</button>
+              <button class="text-sm text-red-500 font-medium hover:underline ml-4">Delete avatar</button>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Business Profile -->
+        <div class="mb-8">
+          <h2 class="text-lg font-medium mb-4">Business Profile</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm mb-1" for="businessName">Business Name</label>
+              <input
+                id="businessName"
+                type="text"
+                class="w-full bg-gray-700 text-white border border-gray-600 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500"
+                value="Tabler"
+              />
+            </div>
+            <div>
+              <label class="block text-sm mb-1" for="businessID">Business ID</label>
+              <input
+                id="businessID"
+                type="text"
+                class="w-full bg-gray-700 text-white border border-gray-600 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500"
+                value="560afc32"
+              />
+            </div>
+            <div>
+              <label class="block text-sm mb-1" for="location">Location</label>
+              <input
+                id="location"
+                type="text"
+                class="w-full bg-gray-700 text-white border border-gray-600 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500"
+                value="Peimei, China"
+              />
+            </div>
+          </div>
+        </div>
+    
+        <!-- Email -->
+        <div class="mb-8">
+          <label class="block text-sm mb-1" for="email">Email</label>
+          <div class="flex items-center gap-4">
+            <input
+              id="email"
+              type="email"
+              class="flex-1 bg-gray-700 text-white border border-gray-600 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500"
+              value="paweluna@howstuffworks.co"
+            />
+            <button class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Change</button>
+          </div>
+          <p class="text-sm text-gray-400 mt-2">This contact will be shown to others publicly, so choose it carefully.</p>
+        </div>
+    
+        <!-- Password -->
+        <div class="mb-3">
+          <label class="block text-sm mb-1" for="password">Password</label>
+          <button
+            id="password"
+            class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600"
+          >
+            Set new password
+          </button>
+          <p class="text-sm text-gray-400 mt-2">You can set a permanent password if you don't want to use temporary login codes.</p>
+        </div>
+    
+        <!-- Public Profile -->
+        <div class="mb-8">
+          <label class="block text-sm mb-1">Public Profile</label>
+          <div class="flex items-center">
+            <input
+              id="publicProfile"
+              type="checkbox"
+              class="w-6 h-6 text-blue-500 bg-gray-700 border border-gray-600 rounded focus:ring-2 focus:ring-blue-500"
+            />
+            <label for="publicProfile" class="ml-3 text-sm">You're currently invisible</label>
+          </div>
+          <p class="text-sm text-gray-400 mt-2">Making your profile public means that anyone on the network will be able to find you.</p>
+        </div>
+    
+        <!-- Save and Cancel Buttons -->
+        <div class="flex justify-end gap-4">
+          <button class="bg-green-500 text-white px-6 py-2 rounded-lg hover:bg-green-600 flex items-center gap-2">
+            Save
+          </button>
+          <button class="bg-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-700 flex items-center gap-2">
+            Cancel
+          </button>
+        </div>
+      </div>

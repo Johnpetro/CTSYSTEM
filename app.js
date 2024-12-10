@@ -38,6 +38,18 @@ app.get('/manage_driver',(req,res)=>{
 app.get('/create_driver',(req,res)=>{
     res.render('utility/create_driver.ejs',{layout:adminLayout})
 })
+app.get('/profile_driver',(req,res)=>{
+    res.render('utility/create_driver.ejs',{layout:adminLayout})
+})
+
+app.get('/profile_agent',(req,res)=>{
+    res.render('utility/agent_profile.ejs',{layout:adminLayout})
+})
+
+app.get('/driver_profile',(req,res)=>{
+    res.render('utility/driver_profile.ejs',{layout:adminLayout})
+})
+
 
 app.listen(port, ()=>{console.log(`application is running on port ${port}`)})
 
